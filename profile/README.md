@@ -1,31 +1,17 @@
-# WB3Tech Microgrid 
+# Attestify
 
-Hey There 👋 
+Hey There 👋
 
-This repository contians all code for the WB3Tech Microgird projects. This includes:
+Attestify integrates information for industry-wide and private software supply chains.  The outcome is an explicit methodology to declare what is trustable. It has two ambitions:
 
-- source code for WB3Tech upstream projects
-- downstream projects forked from their respective upstreams
-- other source code related to the operations of these projects for any WB3Tech offerings
+1. Be the system that establishes a nexus of trust for the open source ecosystem
+1. Automate the software governance processes for software supply chain management.
 
-___
+The domain and kernel specifications describe the interfaces and use cases for the components of Attestify. The kernel consists of reusable components used by multiple aspects of the project. The domain is the aggregate set of use cases the software implements.
 
-## Our Downstream Projects
+| Specification     | Website       |
+|---------------    |---------      |
+| Kernel            | https://attestify.github.io/kernel-specification  |
+| Domain            | https://attestify.github.io/domain-specification  |
 
-### Hyphae APIS
-
-Hyphae is a LFEnergy project that automatically and efficiently distributes locally-produced renewable energy over a DC grid.
-
-- [Hyphae Homepage - LFEnergy.org](https://www.lfenergy.org/projects/hyphae/)
-- [Hyphae Github](https://github.com/hyphae)
-- [Hyphae Miro Board](https://miro.com/app/board/uXjVOvD7nTM=/?share_link_id=733858914106)
-  - A knowledge map and informaiton nexus about the Hyphae project created by us.
-  - This is how we document the upstream project
-
-#### Artifact Repositories
-
-|   WB3Tech Hyphae Repo Type         |   Repo URL  |
-|---------------------|-------------|
-| Container           | ghcr.io/wb3tech-microgrid/hyphae-apis-containers/ |
-| Maven               | https://maven.pkg.github.com/WB3Tech-Microgrid/hyphae-apis |
-
+The specs are not specific to a programming language. The specification's purpose is to describe the structure and behavioral expectations of the system and components. The specifications are not code-specific documentation. Each repository will have its documentation of how that repository implements the Attestify specification.
