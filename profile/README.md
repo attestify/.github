@@ -7,7 +7,7 @@ Attestify integrates information for industry-wide and private software supply c
 
 The domain and kernel specifications describe the interfaces and use cases for the components of Attestify. The kernel consists of reusable components used by multiple aspects of the project. The domain is the aggregate set of use cases the software implements.
 
-* [Kernel](https://attestify.github.io/kernel-specification?target=_blank)
-* [Domain](https://attestify.github.io/domain-specification?target=_blank)  
+* <a href="https://attestify.github.io/kernel-specification" target="_blank">Kernel</a>
+* <a href="https://attestify.github.io/domain-specification" target="_blank">Domain</a>
 
 The specs are not specific to a programming language. The specification's purpose is to describe the structure and behavioral expectations of the system and components. The specifications are not code-specific documentation. Each repository will have its documentation of how that repository implements the Attestify specification.
