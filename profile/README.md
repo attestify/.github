@@ -1,6 +1,4 @@
-# Attestify
-
-Hey There 👋
+# Hey There 👋
 
 Attestify integrates information for industry-wide and private software supply chains.  The outcome is an explicit methodology to declare what is trustable. It has two ambitions:
 
